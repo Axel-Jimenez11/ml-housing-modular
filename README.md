@@ -158,5 +158,3 @@ El trabajo se distribuyó en cuatro bloques de código, uno por integrante. Cada
 | 4 | `train.py` | `feature/orquestacion-train` | Ana Patricia Ponce Santero | Axel Salvador Jimenez Lopez |
 
 Los bloques se fusionaron en el orden 1, 2, 3 y 4, porque cada uno depende de los anteriores. La documentación (este archivo) se agregó en un pull request aparte.
-
-Origen del código: el equipo partió de un borrador generado con GitHub Copilot a partir del notebook de referencia de la actividad (`notebooks/actividad_01_housing_referencia.py`). El equipo lo revisó, lo probó y lo integró por bloques mediante pull requests.
