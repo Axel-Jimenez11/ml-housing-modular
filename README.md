@@ -150,11 +150,13 @@ Interpretación breve:
 
 El trabajo se distribuyó en cuatro bloques de código, uno por integrante. Cada bloque se desarrolló en su propia rama, con commits descriptivos en español, y se integró a `main` mediante un pull request que describe qué cambió, por qué y cómo se verificó. Otro integrante revisó cada pull request y dejó observaciones concretas antes de la fusión.
 
-| Bloque | Archivos | Rama | Responsable | Revisó |
-|---|---|---|---|---|
-| 1 | `src/config.py`, `src/data_io.py`, `scripts/download_data.py` | `feature/config-y-carga` | Axel Salvador Jimenez Lopez | Diego Vazquez Hernandez |
-| 2 | `src/splitter.py`, `src/features.py`, `src/preprocessor.py` | `feature/division-y-preprocesamiento` | Diego Vazquez Hernandez | Miguel Angel Torres Monroy |
-| 3 | `src/models.py`, `src/evaluation.py` | `feature/modelos-y-evaluacion` | Miguel Angel Torres Monroy | Ana Patricia Ponce Santero |
-| 4 | `train.py` | `feature/orquestacion-train` | Ana Patricia Ponce Santero | Axel Salvador Jimenez Lopez |
+### Tabla de contribuciones
 
-Los bloques se fusionaron en el orden 1, 2, 3 y 4, porque cada uno depende de los anteriores. La documentación (este archivo) se agregó en un pull request aparte.
+| Bloque | Responsable | Usuario de GitHub | Archivos | Rama | Commit | Pull request | Revisó |
+|---|---|---|---|---|---|---|---|
+| 1 | Axel Salvador Jimenez Lopez | [Axel-Jimenez11](https://github.com/Axel-Jimenez11) | `src/config.py`, `src/data_io.py`, `scripts/download_data.py` | `feature/config-y-carga` | `b6f2ade` | #2 | Diego Vazquez Hernandez |
+| 2 | Diego Vazquez Hernandez | [diegovazquez5803-cyber](https://github.com/diegovazquez5803-cyber) | `src/splitter.py`, `src/features.py`, `src/preprocessor.py` | `feature/division-y-preprocesamiento` | `023daf2` | #3 | Miguel Angel Torres Monroy |
+| 3 | Miguel Angel Torres Monroy | [migueltorres5238](https://github.com/migueltorres5238) | `src/models.py`, `src/evaluation.py` | `feature/modelos-y-evaluacion` | `fd6896e` | #4 | Ana Patricia Ponce Santero |
+| 4 | Ana Patricia Ponce Santero | [anaponce5994-lang](https://github.com/anaponce5994-lang) | `train.py` | `feature/orquestacion-train` | `e6d3d6f` | #5 | Axel Salvador Jimenez Lopez |
+
+Cada bloque se integró a `main` mediante su propio pull request. La documentación (este archivo) se agregó en pull requests aparte.
